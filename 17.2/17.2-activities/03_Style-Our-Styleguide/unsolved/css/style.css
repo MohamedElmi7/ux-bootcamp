@@ -35,7 +35,8 @@
 .lightBlue{background-color:#12A0F6;}
 .red{background-color:#F84848;}
 .orange{background-color:#FC7705;}
-
+.lightBlue{background-color:#13A0F6;}
+.lightGreen{background-color:#8ABE48}
 /* Typography CSS */
 .type_container {
    display: inline-block;
@@ -62,4 +63,4 @@
 .dangerActive{background-color:#AD4848;}
 .warningActive{background-color:#BA7A43;}
 .infoActive{background-color:#4386BA;}
-.sectionHead{border-bottom: 8px solid #DDDDDD;}
+.sectionHead{border-bottom: 8px solid ;}
