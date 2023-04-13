@@ -2,8 +2,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Grid CSS */
-
 #heroGrid {
   margin: 0px 5%;
   display: grid;
@@ -53,7 +51,6 @@ body {
   position: relative;
 }
 
-/* Category Grid CSS */
 
 .subHeading {
   text-align: center;
