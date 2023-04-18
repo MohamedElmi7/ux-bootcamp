@@ -6,3 +6,9 @@ console.log(five);
 }
 addnumbers();
 // Create the stringConcat function here.
+function stringConcat() { var taco = 'taco';
+var cat = 'cat';
+var tacoCat = 'taco' + ' ' + 'cat';
+alert(tacoCat);
+}
+stringConcat();
