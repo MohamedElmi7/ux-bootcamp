@@ -1,13 +1,13 @@
-$("#enter").on("click", function(){
+$("#enter").on("click", function () {
   var task = $("#todoItem").val();
   $("#todoList").append("<div class='task'>" + task + "<div class='x fas fa-times'></div></div>");
 });
 
-$(document).on("click", ".x", function(){
+$(document).on("click", ".x", function () {
   $(this).parent().remove();
 });
 
-$(document).on("click", ".task", function(){
+$(document).on("click", ".task", function () {
   $(this).toggleClass("done");
   if ($(this).hasClass("done")) {
     $(this).find("div").removeClass("fa-times");
